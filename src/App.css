@@ -1,0 +1,111 @@
+
+
+.c-head
+{
+  text-align: center;
+flex-shrink: 0;
+}
+
+
+
+.c-head-text-us
+{
+  background: linear-gradient(90deg, #DA916D 74.03%, #DA916D 74.03%, #DA916D 74.03%, rgba(218, 145, 109, 0.00) 103.02%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+/* font-family: Roboto; */
+/* font-size: 50px;
+font-style: normal;
+font-weight: 900;
+line-height: 20px; */
+}
+
+
+.container
+{
+  display: flex;
+  background: rgb(255, 255, 255);
+  box-shadow: 10px 10px 60px 30px rgba(0, 0, 0, 0.09);
+  margin: 20px;
+  padding: 2px;
+  border-radius: 50px;
+  /* flex-direction: column; */
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.c-left
+{
+  width: 40%;
+  color: rgb(255, 255, 255);
+  background: #1F1F1F;
+  border-radius: 50px;
+  padding: 30px;
+}
+
+.c-right
+{
+  border-radius: 50px;
+  width: 60%;
+  padding: 30px;
+  padding-left: 60px;
+}
+
+.radio-inp
+{
+  padding-top: 30px;
+  margin-left: 17px;
+}
+
+.but-inp
+{
+  padding-top: 30px;
+  margin-left: 17px;
+  /* position: absolute; */
+}
+
+.but{
+  background-color: #000000; /* Green */
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 15px;
+  font-size: 16px;
+}
+@media only screen and (max-width: 600px) {
+  .but
+  {
+    background-color: #000000; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 10px; 
+  }
+  .container{
+    display: block;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+  }
+  .c-left
+  {
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+  }
+  .c-right
+  {
+    width: 90%;
+    border-radius:0px 0px 10px 10px ;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+}
